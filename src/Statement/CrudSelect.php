@@ -41,10 +41,6 @@ class CrudSelect extends Crud
 
 	}
 
-	protected function 
-
-
-
 	public function run() {
 
 		$result = $this->doExecute( $this->getTable(), $this->getColumns(), $this->getWhere() );
